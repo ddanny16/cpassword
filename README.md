@@ -1,3 +1,3 @@
-# cpasswor
+# cpassword
 # cpassword
 
