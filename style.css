@@ -37,7 +37,30 @@ input{
     margin-bottom: 30px;
 
 }
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+   
+}
 input[type="password"]{
     border: 2px solid palegreen;
     background-color: #c2c2c2;
+}
+input[type="button"]{
+ background-color: #777;
+ font-weight: 500;
+ color: white;
+ border: none;
+ font-size: 18px;
+ letter-spacing: 1px;
+ cursor: pointer;
+ margin-top: 20px;
+
+}
+p{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+    padding: 5px 20px;
+    
 }
