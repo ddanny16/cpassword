@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
     height: 100vh;
@@ -17,5 +18,26 @@ form{
     left: 50%;
     border-radius: 15px;
     box-shadow: 20px 20px 30px rgba(0,0,0,0,0.15);
-    
+
+}
+label{
+    font-weight: 500;
+    color: #101030;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 6px;
+    outline: none;
+    color: #101010;
+}
+#password{
+    margin-bottom: 30px;
+
+}
+input[type="password"]{
+    border: 2px solid palegreen;
+    background-color: #c2c2c2;
 }
