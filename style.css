@@ -57,10 +57,14 @@ input[type="button"]{
  margin-top: 20px;
 
 }
+input[type="button"]:hover{
+    transform: scaleX(1.1);
+    background-color: #444;
+}
 p{
     display: inline-block;
     color: rgb(255, 255, 255);
     margin: 15px 0;
     padding: 5px 20px;
-    
+
 }
