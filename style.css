@@ -6,11 +6,13 @@
 }
 body{
     height: 100vh;
-    background-image: linear-gradient(to bottom right, blue, yellow)
+    background-image: linear-gradient(to bottom right, blue, yellow);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 form{
     background-color: white;
-    width: 450px;
+    width: 40%;
     padding: 50px 40px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -18,6 +20,9 @@ form{
     left: 50%;
     border-radius: 15px;
     box-shadow: 20px 20px 30px rgba(0,0,0,0,0.15);
+    /* max-width: 900px; */
+    margin-left: auto;
+    margin-right: auto;
 
 }
 label{
